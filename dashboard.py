@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 # --- Konfigurasi Streamlit ---
 st.set_page_config(page_title="Air Quality Dashboard", layout="wide")
 st.title("📊 Air Quality Analysis Dashboard (PM2.5)")
+st.subheader("Shafa Zhafira Gunvany")
 
 # --- Load Data ---
 @st.cache_data
